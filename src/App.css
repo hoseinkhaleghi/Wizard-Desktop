@@ -1,0 +1,25 @@
+.icon {
+  cursor: pointer;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  text-align: center;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.icon:hover {
+  background: #e2e2e2;
+  transform: scale(1.05);
+}
+
+.resize {
+  overflow: hidden; 
+}
+
+.border {
+  transition: box-shadow 0.3s;
+}
+
+.border:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
